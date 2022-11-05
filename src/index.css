@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: black;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-header{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  padding: 30px;
+  z-index: 50;
+}
+
+.picture{
+  width: 1000px;
+  height: auto;
+  padding: 20px;
+}
+
+p{
+  max-width: 1200px;
+  line-height: 1.8;
+}
+
+
